@@ -1,0 +1,70 @@
+.button{
+
+border-radius: 8px;
+padding-inline: 40px;
+padding-block: 16px;
+background: #9333ea;
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.5px;
+color: #fff;
+text-align:center;
+}
+.button:hover{
+    background-color:  #6b1cb6;
+}
+.button--min{
+    font-size: 16px;
+    padding-inline: 28px;
+padding-block: 12px;
+line-height: 150%;
+}
+.button--transparent{
+background-color: transparent;
+}
+.button--transparent:hover{
+  
+    }
+.button--white-border{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.button--white-border:hover{
+    border: 2px solid #9333ea;
+  
+}
+.title{
+
+font-weight: 800;
+font-size: 56px;
+/* line-height: 62px; */ 
+line-height: 110%;
+
+
+}
+.title--center{
+    text-align: center;
+}
+@media(max-width:991.98px){
+    .title{
+        font-size: 46px;
+    
+        }
+        .title{
+            font-size: 40px;
+            }
+         
+  }
+  .blok-header__bg span{
+z-index: 2;
+position: relative;
+  }
+.link--event{
+    background: url("../img/link.svg") right no-repeat;
+    padding-right: 35px;
+    color: #9333ea;
+}
+.title--bleak{
+    color: black;
+}
